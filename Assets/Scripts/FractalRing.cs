@@ -15,7 +15,7 @@ public class FractalRing : MonoBehaviour
     [SerializeField]
     int radius = 5;
     [SerializeField]
-    GameObject first;
+    static GameObject first;
 
     public Vector3 pivot = new Vector3(0, -5, 0);
 
