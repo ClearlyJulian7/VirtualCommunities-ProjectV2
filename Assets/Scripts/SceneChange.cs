@@ -9,20 +9,17 @@ public class SceneChange : MonoBehaviour
     int notThisScene;
     public void Start()
     {
-        whoScene = Random.Range(1, SceneManager.sceneCount);
-        if (SceneManager.GetSceneByBuildIndex(whoScene).name == SceneManager.GetActiveScene().name) {
-            notThisScene = whoScene;
-        }
-        while (whoScene == notThisScene) {
-            whoScene = Random.Range(1, SceneManager.sceneCount);
-        }
+        whoScene = Random.Range(1, 5);
         Debug.Log(whoScene);
     }
 
     public void Update()
     {
-        
+        if (SceneManager.GetActiveScene().Equals(SceneManager.GetSceneByBuildIndex(whoScene))) {
+            whoScene = Random.Range(1, 5);
+        }
     }
+
     void OnTriggerEnter(Collider other)
     {
         if (!this.tag.Equals("backToHub"))
