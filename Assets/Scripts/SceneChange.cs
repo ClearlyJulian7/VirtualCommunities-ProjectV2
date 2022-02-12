@@ -8,6 +8,13 @@ public class SceneChange : MonoBehaviour
     public int whoScene = 0;
     void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(whoScene);
+        if (!this.tag.Equals("backToHub"))
+        {
+            SceneManager.LoadScene(Random.Range(1, SceneManager.sceneCount - 1));
+        }
+        else
+        {
+            SceneManager.LoadScene(whoScene);
+        }
     }
 }
