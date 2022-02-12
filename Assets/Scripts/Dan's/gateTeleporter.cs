@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class gateTeleporter : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class gateTeleporter : MonoBehaviour
     public Transform[] childrenTransforms;
     private Vector3 nextPosition;
     public GameObject gate;
+    private bool restrictLook;
+    public GameObject player;
+    public float lookRestricted;
+
     // Start is called before the first frame update
     void Start()
     {

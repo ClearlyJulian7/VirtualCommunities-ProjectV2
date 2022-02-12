@@ -22,11 +22,11 @@ public class SceneChange : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (!this.tag.Equals("backToHub"))
+        if (!this.tag.Equals("backToHub") && other.tag.Equals("Player"))
         {
             SceneManager.LoadScene(whoScene);
         }
-        else
+        else if (other.tag.Equals("Player"))
         {
             SceneManager.LoadScene(0);
         }

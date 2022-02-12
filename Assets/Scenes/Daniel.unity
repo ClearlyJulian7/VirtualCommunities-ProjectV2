@@ -8595,6 +8595,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+--- !u!1 &752136035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 752136034}
+  m_PrefabAsset: {fileID: 0}
+--- !u!895512359 &752136036
+AimConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752136035}
+  m_Enabled: 1
+  m_Weight: 1
+  m_RotationAtRest: {x: -0, y: 0, z: 0}
+  m_RotationOffset: {x: 0, y: 0, z: 0}
+  m_AimVector: {x: 0, y: 0, z: 1}
+  m_UpVector: {x: 0, y: 1, z: 0}
+  m_WorldUpVector: {x: 0, y: 1, z: 0}
+  m_WorldUpObject: {fileID: 0}
+  m_UpType: 0
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_IsContraintActive: 0
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 1541117946}
+    weight: 1
 --- !u!1 &757961003
 GameObject:
   m_ObjectHideFlags: 0
@@ -15373,6 +15402,8 @@ MonoBehaviour:
   gateRotator: {fileID: 1541117945}
   childrenTransforms: []
   gate: {fileID: 1541117945}
+  player: {fileID: 752136035}
+  lookRestricted: 0
 --- !u!43 &1194746090
 Mesh:
   m_ObjectHideFlags: 0
@@ -24369,6 +24400,8 @@ MonoBehaviour:
   gateRotator: {fileID: 1541117945}
   childrenTransforms: []
   gate: {fileID: 1541117945}
+  player: {fileID: 752136035}
+  lookRestricted: 0
 --- !u!1 &1867796489
 GameObject:
   m_ObjectHideFlags: 0
@@ -29405,6 +29438,8 @@ MonoBehaviour:
   gateRotator: {fileID: 1541117945}
   childrenTransforms: []
   gate: {fileID: 1541117945}
+  player: {fileID: 752136035}
+  lookRestricted: 0
 --- !u!43 &2111665918
 Mesh:
   m_ObjectHideFlags: 0
