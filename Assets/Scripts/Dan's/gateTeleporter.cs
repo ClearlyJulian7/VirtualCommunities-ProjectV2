@@ -7,6 +7,7 @@ public class gateTeleporter : MonoBehaviour
     public GameObject gateRotator;
     public Transform[] childrenTransforms;
     private Vector3 nextPosition;
+    public GameObject gate;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,7 @@ public class gateTeleporter : MonoBehaviour
         {
             gateRotator.GetComponent<gateLocationFixer>().rotateGates();
             nextPosition = childrenTransforms[Random.Range(1, 5)].position;
-            other.transform.SetPositionAndRotation(nextPosition - nextPosition.normalized, Quaternion.identity);
-            other.transform.LookAt(Vector3.zero);
+            other.transform.SetPositionAndRotation(nextPosition - (nextPosition.normalized * 5), Quaternion.identity);
         }
     }
 

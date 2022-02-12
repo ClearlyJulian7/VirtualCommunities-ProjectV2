@@ -10246,6 +10246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PS_Parent
       objectReference: {fileID: 0}
+    - target: {fileID: 1253142483436318, guid: 89956e675b749204c8e10395ce2b5fb9, type: 3}
+      propertyPath: m_TagString
+      value: backToHub
+      objectReference: {fileID: 0}
     - target: {fileID: 4521404770085940, guid: 89956e675b749204c8e10395ce2b5fb9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -15368,6 +15372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gateRotator: {fileID: 1541117945}
   childrenTransforms: []
+  gate: {fileID: 1541117945}
 --- !u!43 &1194746090
 Mesh:
   m_ObjectHideFlags: 0
@@ -24363,6 +24368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gateRotator: {fileID: 1541117945}
   childrenTransforms: []
+  gate: {fileID: 1541117945}
 --- !u!1 &1867796489
 GameObject:
   m_ObjectHideFlags: 0
@@ -25429,7 +25435,7 @@ BoxCollider:
   m_GameObject: {fileID: 1884124242}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 10, y: 5, z: 1}
   m_Center: {x: 0, y: 2.5, z: 0}
@@ -29398,6 +29404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gateRotator: {fileID: 1541117945}
   childrenTransforms: []
+  gate: {fileID: 1541117945}
 --- !u!43 &2111665918
 Mesh:
   m_ObjectHideFlags: 0

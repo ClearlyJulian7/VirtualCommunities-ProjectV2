@@ -10,7 +10,7 @@ public class SceneChange : MonoBehaviour
     {
         if (!this.tag.Equals("backToHub"))
         {
-            SceneManager.LoadScene(Random.Range(1, SceneManager.sceneCount - 1));
+            SceneManager.LoadScene(Random.Range(1, SceneManager.sceneCount));
         }
         else
         {
