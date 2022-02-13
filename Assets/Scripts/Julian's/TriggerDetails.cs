@@ -5,12 +5,14 @@ using UnityEngine;
 public class TriggerDetails : MonoBehaviour
 {
     public GameObject Artinfo;
+    public GameObject ArtinfoQ;
 
     public void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
             Artinfo.SetActive(true);
+            ArtinfoQ.SetActive(false);
         }
         
     }
@@ -20,6 +22,7 @@ public class TriggerDetails : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Artinfo.SetActive(false);
+            ArtinfoQ.SetActive(true);
         }
 
     }
