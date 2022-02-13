@@ -712,3 +712,4 @@ Received Import Request.
 Start importing Assets/01_AssetStore/DoorPackFree/Scenes/FloorAO.png using Guid(4a8770c8fe9a3f64d94ce3bc9d1817e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b2779bc9baa9576e409cbeaa62c37e') in 0.092699 seconds 
   Import took 0.109993 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
