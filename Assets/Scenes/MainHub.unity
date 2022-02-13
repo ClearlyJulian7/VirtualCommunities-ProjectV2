@@ -190,7 +190,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24638
+  m_Name: pb_Mesh22284
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -354,7 +354,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh49640
+  m_Name: pb_Mesh22420
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 530731267}
   m_Layer: 0
   m_Name: Torus A
-  m_TagString: Untagged
+  m_TagString: backToHub
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12260,7 +12260,7 @@ GameObject:
   - component: {fileID: 673536926}
   m_Layer: 0
   m_Name: Torus B
-  m_TagString: Untagged
+  m_TagString: backToHub
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24332,7 +24332,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh49606
+  m_Name: pb_Mesh22370
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24727,7 +24727,7 @@ GameObject:
   - component: {fileID: 1609615726}
   m_Layer: 0
   m_Name: Torus C
-  m_TagString: Untagged
+  m_TagString: backToHub
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36615,7 +36615,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh49576
+  m_Name: pb_Mesh22302
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37050,6 +37050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: First Person Controller
       objectReference: {fileID: 0}
+    - target: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -37123,7 +37127,7 @@ GameObject:
   - component: {fileID: 1839664674}
   m_Layer: 0
   m_Name: Torus D
-  m_TagString: Untagged
+  m_TagString: backToHub
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

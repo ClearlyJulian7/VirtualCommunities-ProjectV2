@@ -9,7 +9,7 @@ public class SceneChange : MonoBehaviour
     int notThisScene;
     public void Start()
     {
-        if (!this.tag.Equals("fixedTeleporter"))
+        if (this.tag.Equals("fixedTeleporter"))
             whoScene = Random.Range(1, 5);
         Debug.Log(whoScene);
     }
@@ -23,7 +23,7 @@ public class SceneChange : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (!this.tag.Equals("backToHub") && other.tag.Equals("Player"))
+        if (this.tag.Equals("backToHub") && other.tag.Equals("Player"))
         {
             SceneManager.LoadScene(whoScene);
         }
