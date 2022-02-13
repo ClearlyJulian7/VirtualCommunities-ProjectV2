@@ -9,7 +9,8 @@ public class SceneChange : MonoBehaviour
     int notThisScene;
     public void Start()
     {
-        whoScene = Random.Range(1, 5);
+        if (!this.tag.Equals("fixedTeleporter"))
+            whoScene = Random.Range(1, 5);
         Debug.Log(whoScene);
     }
 
