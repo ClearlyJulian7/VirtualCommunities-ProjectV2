@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.49192142, g: 0.68285924, b: 0.7869214, a: 1}
+  m_IndirectSpecularColor: {r: 0.491902, g: 0.6828548, b: 0.78691506, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,7 +190,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22284
+  m_Name: pb_Mesh23348
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -354,7 +354,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22420
+  m_Name: pb_Mesh23484
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 530731267}
   m_Layer: 0
   m_Name: Torus A
-  m_TagString: backToHub
+  m_TagString: fixedTeleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12260,7 +12260,7 @@ GameObject:
   - component: {fileID: 673536926}
   m_Layer: 0
   m_Name: Torus B
-  m_TagString: backToHub
+  m_TagString: fixedTeleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24332,7 +24332,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22370
+  m_Name: pb_Mesh23434
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24727,7 +24727,7 @@ GameObject:
   - component: {fileID: 1609615726}
   m_Layer: 0
   m_Name: Torus C
-  m_TagString: backToHub
+  m_TagString: fixedTeleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36615,7 +36615,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22302
+  m_Name: pb_Mesh23366
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37127,7 +37127,7 @@ GameObject:
   - component: {fileID: 1839664674}
   m_Layer: 0
   m_Name: Torus D
-  m_TagString: backToHub
+  m_TagString: fixedTeleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
