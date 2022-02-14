@@ -1,0 +1,97 @@
+{
+	"minElevation": 2744,
+	"maxElevation": 8062,
+	"geoReference": {
+		"boundingBox": {
+			"xMin": 74.4413888888889,
+			"xMax": 74.74166666666666,
+			"yMin": 35.14972222222222,
+			"yMax": 35.341388888888886,
+			"zMin": 2744,
+			"zMax": 8062,
+			"width": 0.3002777777777652,
+			"height": 0.19166666666666288,
+			"depth": 5318,
+			"center": [
+				74.59152777777777,
+				35.245555555555555,
+				5403
+			],
+			"area": 0.05755324074073719,
+			"wkt": "POLYGON((74.4413888888889 35.14972222222222, 74.74166666666666 35.14972222222222, 74.74166666666666 35.341388888888886, 74.4413888888889 35.341388888888886, 74.4413888888889 35.14972222222222))",
+			"srid": 4326
+		},
+		"widthMeters": 27299.176,
+		"heightMeters": 21336.236,
+		"medianElevation": 5403
+	},
+	"baseRoute": "20210131",
+	"fileBasePath": "/gltf/20210131/800001be-0007-fc00-b63f-84710c7967bb/",
+	"modelFile": "/gltf/20210131/800001be-0007-fc00-b63f-84710c7967bb.glb",
+	"modelFileSizeMB": 51.034336,
+	"heightMap": {
+		"filePath": "/gltf/20210131/800001be-0007-fc00-b63f-84710c7967bb_heightmap.png",
+		"fileName": "800001be-0007-fc00-b63f-84710c7967bb_heightmap.png",
+		"imageFormat": 1,
+		"width": 1082,
+		"height": 691,
+		"projectedZoom": 0
+	},
+	"albedoTexture": {
+		"filePath": "/gltf/20210131/800001be-0007-fc00-b63f-84710c7967bb_Texture.jpg",
+		"fileName": "800001be-0007-fc00-b63f-84710c7967bb_Texture.jpg",
+		"imageFormat": 0,
+		"width": 6996,
+		"height": 5468,
+		"projectedZoom": 15,
+		"projectedBounds": {
+			"xMin": 5928914.584345679,
+			"xMax": 5935911.563703704,
+			"yMin": 3312978.3784565395,
+			"yMax": 3318447.015654052,
+			"zMin": 2744,
+			"zMax": 8062,
+			"width": 6996.979358024895,
+			"height": 5468.637197512668,
+			"depth": 5318,
+			"center": [
+				5932413.074024691,
+				3315712.697055296,
+				5403
+			],
+			"area": 38263941.587523244,
+			"wkt": "POLYGON((5928914.584345679 3312978.3784565395, 5935911.563703704 3312978.3784565395, 5935911.563703704 3318447.015654052, 5928914.584345679 3318447.015654052, 5928914.584345679 3312978.3784565395))",
+			"srid": 4326
+		},
+		"tileCount": 638
+	},
+	"normalMapTexture": {
+		"filePath": "/gltf/20210131/800001be-0007-fc00-b63f-84710c7967bb_normalmap.png",
+		"fileName": "800001be-0007-fc00-b63f-84710c7967bb_normalmap.png",
+		"imageFormat": 0,
+		"width": 1082,
+		"height": 691,
+		"projectedZoom": 0
+	},
+	"attributions": [
+		{
+			"subject": "Generator",
+			"text": "DEM Net Elevation API",
+			"url": "https://elevationapi.com",
+			"acknowledgement": "DEM Net Elevation API (elevationapi.com), under MIT license, free for less than 100K$ gross revenue companies."
+		},
+		{
+			"subject": "Digital Elevation Model",
+			"text": "SRTM_GL1 OpenTopography",
+			"url": "https://opentopography.org/",
+			"acknowledgement": "http://www2.jpl.nasa.gov/srtm/srtmBibliography.html, https://doi.org/10.5069/G9445JDF"
+		},
+		{
+			"subject": "Imagery",
+			"text": "Esri World Imagery",
+			"url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+			"acknowledgement": "Source: Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN, and the GIS User Community"
+		}
+	],
+	"requestId": "800001be-0007-fc00-b63f-84710c7967bb"
+}
