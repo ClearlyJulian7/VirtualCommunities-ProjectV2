@@ -3,19 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - backToHub
-  - fixedTeleporter
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - walls
+  - 
   - Water
   - UI
-  - strayThought
   - 
   - 
+  - PostProcess
   - 
   - 
   - 
