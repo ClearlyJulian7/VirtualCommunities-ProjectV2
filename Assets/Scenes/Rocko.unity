@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4888,6 +4888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: portal_mainmenu
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a661cb61b7363e848ab289b465d75e64, type: 3}
+      propertyPath: m_TagString
+      value: backToHub
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a661cb61b7363e848ab289b465d75e64, type: 3}
 --- !u!1 &998722843 stripped
@@ -4904,10 +4908,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 998722843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43d9c6d3b1aff9140b772745eda29740, type: 3}
+  m_Script: {fileID: 11500000, guid: 66fac9bee468b75418df7802180868d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objToTP: {fileID: 1420063111}
+  whoScene: 0
 --- !u!65 &998722845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5993,11 +5997,6 @@ RectTransform:
   m_AnchoredPosition: {x: -8.931099, y: -20.812199}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1420063111 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1743903104223250, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
-  m_PrefabInstance: {fileID: 1796458229}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1447111620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6241,6 +6240,24 @@ Transform:
   m_Father: {fileID: 430977138}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1506707367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a661cb61b7363e848ab289b465d75e64, type: 3}
+  m_PrefabInstance: {fileID: 1547559805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506707368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506707367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fac9bee468b75418df7802180868d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whoScene: 0
 --- !u!1001 &1513065504
 PrefabInstance:
   m_ObjectHideFlags: 0
