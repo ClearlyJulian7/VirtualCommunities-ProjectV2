@@ -28,7 +28,7 @@ public class strayThoughtMovement : MonoBehaviour
             thisThought.AddForce(randomDirection * moveSpeed, ForceMode.VelocityChange);
             time = 0;
         }
-        if ((Vector3.Distance(thisThought.position, Vector3.zero) > 32) || (thisThought.position.y < 0 || thisThought.position.y > 10))
+        if ((Vector3.Distance(thisThought.position, Vector3.zero) > 16))
         {
             thisThought.AddForce(-thisThought.position.normalized * moveSpeed, ForceMode.VelocityChange);
         }
